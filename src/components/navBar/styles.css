@@ -1,0 +1,55 @@
+#navBar {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, .1);
+    padding: 20px 0px 25px 25px;
+    transition: .5s;
+}
+
+#navBarColored {
+    transition: .5s;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 20px 0px 25px 25px;
+}
+
+#leftSide {
+    width: 40%;
+}
+
+#rightSide {
+    width: 60%;
+}
+
+#links {
+    float: right;
+    margin-top: 6px;
+    padding-right: 20px;
+}
+
+#nameLink {
+    font-size: 2em;
+    text-decoration: none;
+    color: black;
+}
+
+.link {
+    margin: 0px 10px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: black;
+    transition: .3s;
+}
+
+@media all and (max-width: 690px) {
+    #rightSide {
+        display: none;
+    }
+}
+
+@media all and (max-width: 480px) {
+    #leftSide {
+        width: 80%;
+    }
+}

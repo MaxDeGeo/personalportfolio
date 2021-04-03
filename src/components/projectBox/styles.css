@@ -1,0 +1,56 @@
+.projectTitle {
+    font-size: 1.7em;
+    font-weight: 500;
+}
+
+.projectImg {
+    width: 30%;
+    height: 200px;
+}
+
+.projectBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90%;
+    margin-left: 5%;
+    padding: 20px;
+}
+
+.projectDetails {
+    width: 100%;
+}
+
+.projectType {
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.projectLang {
+    margin-top: 2px;
+    font-size: 1em;
+}
+
+.projectDesc {
+    margin-top: 10px;
+}
+
+@media all and (max-width: 580px) {
+    .projectTitle {
+        font-size: 1.4em;
+    }
+
+    .projectType {
+        font-size: 1.1em;
+    }
+
+    .projectDesc {
+        margin-top: 10px;
+        line-height: 1.2em;
+    }
+
+    .projectBox {
+        width: 90%;
+        margin-left: 0px;
+    }
+}

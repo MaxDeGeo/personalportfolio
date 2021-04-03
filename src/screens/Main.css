@@ -1,0 +1,293 @@
+article section {
+    /* height: 600px; */
+    padding: 0 50px;
+}
+
+#content {
+    scroll-behavior: smooth;
+    height: calc(100vh - 77px);
+    overflow-y: scroll;
+}
+
+.sectionHeader {
+    padding-top: 50px;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    padding-left: 20px;
+}
+
+#banner {
+    background-color: black;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+}
+
+#leftBanner {
+    color: white;
+    margin: 0 auto;
+    padding-top: 150px;
+    padding-left: 20px;
+}
+
+#rightBanner {
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+#rightBanner img {
+    width: 300px;
+    height: auto;
+}
+
+#name {
+    font-size: 4em;
+}
+
+.job {
+    font-size: 2em;
+}
+
+#bio {
+    width: 90%;
+    margin-left: 5%;
+    font-size: 1.4em;
+    line-height: 1.21em;
+    margin-bottom: 50px;
+}
+
+#experience { 
+    background-color: #45503B;
+    padding-bottom: 50px;
+    color: white;
+}
+
+.listLayout {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skillSectionTitle {
+    padding-left: 13px;
+    font-size: 1.7em;
+    font-weight: 500;
+}
+
+#skills {
+    padding-bottom: 50px;
+}
+
+#projects {
+    color: white;
+    background-color: #313E50;
+    padding-bottom: 50px;
+}
+
+#emailForm {
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+#contactName {
+    display: flex;
+    flex-direction: row;
+    width: 45%;
+}
+
+#contactLeft {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+
+#contactRight {
+    width: 100%;
+}
+
+#emailForm label {
+    width: 3em;
+    font-size: 1.3em;
+}
+
+#emailForm input {
+    margin-left: 2px;
+    width: 90%;
+    border: none;
+    font-size: 1.1em;
+    border-bottom: 2px solid rgb(37, 37, 37);
+    outline: none;
+}
+
+#contactEmail {
+    display: flex;
+    flex-direction: row;
+    width: 45%;
+}
+
+#contactMess {
+    height: 300px;
+    width: 100%;
+    font-size: 1.1em;
+    resize: none;
+    outline: none;
+    border: 1px solid rgb(37, 37, 37);
+}
+
+#submitButton {
+    width: 100px;
+    height: 30px;
+    border: 1px solid lightgray;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    transition: .4s;
+}
+
+#submitButton:hover {
+    transition: .3s;
+    background-color: lightgray;
+}
+
+#submitButton p {
+    text-align: center;
+    padding-top: 6px;
+}
+
+#footer {
+    background-color: rgb(0, 0, 0);
+    padding: 0px 50px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+#socialList {
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#socialList img {
+    width: auto;
+    height: 50px;
+}
+
+#copyright {
+    margin-left: 20px;
+}
+
+@media all and (max-width: 768px) {
+    #name {
+        font-size: 3.6em;
+    }
+    .job {
+        font-size: 1.8em;
+    }
+
+    #leftBanner {
+        padding-top: 120px;
+    }
+
+    #rightBanner img {
+        width: 250px;
+        height: auto;
+    }
+
+    .listLayout {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    #emailForm label {
+        font-size: 1.1em;
+    }
+    
+    #emailForm input {
+        font-size: 1.1em;
+    }
+
+    #contactMess {
+        height: 220px;
+        font-size: 1em;
+    }
+}
+
+@media all and (max-width: 580px) {
+
+    #contactLeft {
+        flex-direction: column;
+    }
+
+    #contactName {
+        width: 100%;
+    }
+
+    #contactEmail {
+        width: 100%;
+    }
+
+    .skillSectionTitle {
+        font-size: 1.4em;
+    }
+
+    #bio {
+        width: 80%;
+        margin-left: 10%;
+        font-size: 1.2em;
+    }
+
+    article section {
+        padding: 0 25px;
+    }
+}
+
+@media all and (max-width: 480px) {
+    #banner {
+        flex-direction: column-reverse;
+        height: 340px;
+    }
+
+    #leftBanner {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    #rightBanner {
+        margin-top: 0px;
+    }
+
+    #rightBanner img {
+        width: 150px;
+    }
+
+    #name {
+        font-size: 2em;
+    }
+
+    .job {
+        font-size: 1.3em;
+        text-align: center;
+    }
+
+    #bio {
+        width: 80%;
+        margin-left: 10%;
+        font-size: 1em;
+    }
+}

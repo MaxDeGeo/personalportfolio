@@ -1,0 +1,85 @@
+.expBox {
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 30px;
+    border-left: 3px solid white;
+    padding: 0 10px;
+}
+
+.expTitle {
+    font-size: 1.7em;
+    font-weight: 500;
+}
+
+.expRole {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.expPrimTitle {
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.expPrim {
+    margin-left: 5px;
+    font-size: 1.2em;
+}
+
+.expSecTitle {
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.expSec {
+    margin-left: 5px;
+    font-size: 1.2em;
+}
+
+.expDescSec {
+    margin-top: 5px;
+}
+
+.expDescTitle {
+    font-weight: 500;
+}
+.expDesc {
+    font-size: 1.2em;
+}
+
+@media all and (max-width: 580px) {
+    .expTitle {
+        font-size: 1.4em;
+    }
+
+    .expDate {
+        margin-top: 3px;
+        font-size: .8em;
+    }
+
+    .expPrimTitle {
+        font-size: 1.1em;
+    }
+
+    .expPrim {
+        font-size: 1.1em;
+    }
+
+    .expSecTitle {
+        font-size: 1.1em;
+    }
+
+    .expSec {
+        font-size: 1.1em;
+    }
+
+    .expDescTitle {
+        font-size: 1.1em;
+    }
+
+    .expDesc {
+        font-size: 1em;
+        line-height: 1.2em;
+    }
+}
